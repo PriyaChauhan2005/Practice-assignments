@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int n,a,pro;
+    cin>>n;
+    a=1;
+    while(a<=10){
+         pro=a*n;
+         cout<<pro<<endl;
+         a++;
+    }
+    return 0;
+}
