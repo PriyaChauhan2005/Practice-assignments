@@ -1,0 +1,23 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+     int a,n,sumE,sumO;
+     cin>>n;
+     a=1;
+     sumE=0;
+     sumO=0;
+     while(a<=n){
+         if(a%2==0){
+           sumE=sumE+a;
+         }
+         else{
+          sumO=sumO+a;
+         }
+         a++;
+     }
+     cout<<"sum of even is"<<sumE;
+     cout<<endl;
+     cout<<"sum of even is"<<sumO;
+     return 0;
+}
