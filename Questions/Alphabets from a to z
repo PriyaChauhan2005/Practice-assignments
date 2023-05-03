@@ -1,0 +1,13 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    char alpha;
+    alpha='a';
+    while(alpha<='z'){
+       cout<<alpha;
+       alpha++;
+       cout<<endl;
+    }
+    return 0;
+}
