@@ -1,0 +1,13 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int x,y,I,t;
+	cin>>t;
+	while(t--){
+	    cin>>x>>y;
+	        I=x-y;
+	    cout<<I<<endl;
+	}
+	return 0;
+}
