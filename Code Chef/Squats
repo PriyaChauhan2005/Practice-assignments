@@ -1,0 +1,14 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int t,x,y,squats;
+	cin>>t;
+	y=15;
+	while(t--){
+	    cin>>x;
+	    squats=x*y;
+	    cout<<squats<<endl;
+	}
+	return 0;
+}
