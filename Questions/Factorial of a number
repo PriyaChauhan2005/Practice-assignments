@@ -1,0 +1,11 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int n,fact,i;
+    cin>>n;
+    fact=1;
+    for(i=n;i>0;i--){
+        fact=fact*i;
+    }
+    cout<<fact;
+}
