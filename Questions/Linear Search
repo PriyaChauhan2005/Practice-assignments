@@ -1,0 +1,18 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int i,n,s;
+    cin>>n;
+    int a[n];
+    for(i=0;i<n;i++){
+        cin>>a[i];
+    }
+    cout<<"Enter a element of array for searching:";
+    cin>>s;
+    cout<<"Index of the given number:";
+    for(i=0;i<n;i++){
+        if(s==a[i]){
+            cout<<i;
+        }
+    }
+}
